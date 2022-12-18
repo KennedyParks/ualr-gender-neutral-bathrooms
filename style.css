@@ -11,7 +11,7 @@ html{
     margin: 0%;
     padding: 0%;
  }
-
+/*
  .css-selector {
    background: linear-gradient(163deg, #2eeafa, #ffffff, #fc85ef);
    background-size: 600% 600%;
@@ -36,7 +36,7 @@ html{
    50%{background-position:11% 100%}
    100%{background-position:90% 0%}
 }
-
+*/
  .wrapper {
    display: grid;
    grid-gap: 30px;
@@ -45,11 +45,9 @@ html{
   }
 
   .box {
-   border: solid white 3px;
    border-radius: 20px;
-   background-color: pink;
    color: black;
-   padding: 20px;
+   padding: 2px;
   }
 
   .a-box {
@@ -58,6 +56,7 @@ html{
    height: 65vh;
    color: #444;
    margin-left: 20px;
+   
 
   }
   .b-box {
@@ -100,7 +99,7 @@ table {
  .sidebar-content{
    height: 250px;
    margin: auto;
-   background-color: antiquewhite;
+
    color: black;
 }
 
@@ -125,11 +124,16 @@ table {
    [class*="wrapper"] {
      width: 100%;
      display: block;
-     background-color: pink;
    }
 
    [class*="b-"] {
       max-width: 100%;
+   }
+
+   [class*="-box"] {
+      max-width: 100%;
+      margin: 0;
+      padding: 20px;
    }
  }
 
