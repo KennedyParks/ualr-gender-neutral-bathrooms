@@ -12,17 +12,43 @@ html{
     padding: 0%;
  }
 
+ .css-selector {
+   background: linear-gradient(163deg, #2eeafa, #ffffff, #fc85ef);
+   background-size: 600% 600%;
+
+   -webkit-animation: AnimationName 8s ease infinite;
+   -moz-animation: AnimationName 8s ease infinite;
+   animation: AnimationName 8s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+   0%{background-position:90% 0%}
+   50%{background-position:11% 100%}
+   100%{background-position:90% 0%}
+}
+@-moz-keyframes AnimationName {
+   0%{background-position:90% 0%}
+   50%{background-position:11% 100%}
+   100%{background-position:90% 0%}
+}
+@keyframes AnimationName {
+   0%{background-position:90% 0%}
+   50%{background-position:11% 100%}
+   100%{background-position:90% 0%}
+}
+
  .wrapper {
    display: grid;
    grid-gap: 30px;
-   background-color: green;
    color: #444;
    width: 100%;
   }
 
   .box {
-   background-color: #444;
-   color: #fff;
+   border: solid white 3px;
+   border-radius: 20px;
+   background-color: pink;
+   color: black;
    padding: 20px;
   }
 
@@ -30,6 +56,8 @@ html{
    grid-column: 1 / 5;
    grid-row: 1;
    height: 65vh;
+   color: #444;
+   margin-left: 20px;
 
   }
   .b-box {
@@ -44,6 +72,8 @@ html{
   .c-box {
    grid-column: 1 / 5 ;
    grid-row: 2 ;
+   margin-left: 20px;
+   margin-bottom: 20px;
   }
 
   #map{
@@ -73,6 +103,22 @@ table {
    background-color: antiquewhite;
    color: black;
 }
+
+.custom-map-control-button {
+   background-color: #fff;
+   border: 0;
+   border-radius: 2px;
+   box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   padding: 0 0.5em;
+   font: 400 18px Roboto, Arial, sans-serif;
+   overflow: hidden;
+   height: 40px;
+   cursor: pointer;
+ }
+ .custom-map-control-button:hover {
+   background: rgb(235, 235, 235);
+ }
 
 @media only screen and (max-width: 768px) {
    /* For mobile phones: */
