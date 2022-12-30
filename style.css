@@ -29,32 +29,6 @@ p{
    letter-spacing: 2px;
 }
 
-/*
- .css-selector {
-   background: linear-gradient(163deg, #2eeafa, #ffffff, #fc85ef);
-   background-size: 600% 600%;
-
-   -webkit-animation: AnimationName 8s ease infinite;
-   -moz-animation: AnimationName 8s ease infinite;
-   animation: AnimationName 8s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-   0%{background-position:90% 0%}
-   50%{background-position:11% 100%}
-   100%{background-position:90% 0%}
-}
-@-moz-keyframes AnimationName {
-   0%{background-position:90% 0%}
-   50%{background-position:11% 100%}
-   100%{background-position:90% 0%}
-}
-@keyframes AnimationName {
-   0%{background-position:90% 0%}
-   50%{background-position:11% 100%}
-   100%{background-position:90% 0%}
-}
-*/
  .wrapper {
    display: grid;
    grid-gap: 30px;
@@ -210,60 +184,4 @@ table {
       margin: 0;
       padding: 20px;
    }
- }
-
-
-
-
-
-
- /*
-
- .container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
- }
-
- #map{
-    height: 60vh;
-    width: 60%;
- }
-
- table {
-   border-collapse: collapse;
-   width: 60%;
-   height: 500px;
- }
- 
- td, th {
-   border: 1px solid #dddddd;
-   text-align: left;
-   padding: 8px;
- }
- 
- tr:nth-child(even) {
-   background-color: #dddddd;
- }
-
- .sidebar{
-    height: 900px;
-    width: 300px;
-    margin: 30px 30px;
-    background-color: aqua;
-    display: flex;
-    order: 1;
-    flex-direction: column;
-    justify-content: space-evenly;
- }
-
- .sidebar-content{
-    height: 250px;
-    margin: 10px 10px;
-    background-color: antiquewhite;
- }
-
- .table{
-    display: flex;
-    order: 2;
  }
